@@ -22,10 +22,10 @@ a:hover{color:#73b6b6}
 .tile{font-size:42px;height:110px;line-height:110px;position:absolute;text-align:center;width:80px;z-index:1;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}
 .tile.red{background:#ff6680;box-shadow:0 8px #ff002b;color:#FFF}
 .tile.blue{background:#6cf;box-shadow:0 8px #0af;color:#FFF}
-.tile.bonus,.tile.number{background:#FFF;box-shadow:0 8px #fc6;color:#000}
+.tile.bonus,.tile.number{background:#FFF;box-shadow:0 8px #fc6;border-bottom-image:url('face.png') 100% 80px 0px stretched;color:#000}
 .overlay{background:rgba(0,0,0,.5);display:none;height:100%;left:0;position:fixed;top:0;width:100%;z-index:100}
 .endgame{background:#fafafa;color:#000;height:220px;width:420px;margin-left:-210px;margin-top:-110px;overflow:hidden;padding:28px;position:absolute;text-align:center;top:50%;left:50%;z-index:1000;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.endgame .score-intro{color:#000;display:inline-block;font-size:14px;font-weight:600;text-transform:uppercase}
-.endgame .score-intro strong{color:#fa0;background-image:url('face.png');}
+.endgame .score-intro strong{color:#fa0;}
 .endgame .score{font-size:72px}
 .endgame .btn{color:#FFF;display:inline-block;font-size:14px;letter-spacing:1px;margin:0 6px;padding:12px 16px;text-transform:uppercase;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}
 .endgame .btn:hover{background:#999;box-shadow:0 6px #666;color:#FFF}
